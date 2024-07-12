@@ -1,0 +1,10 @@
+name = "goflare"
+compatibility_date = "2023-12-01"
+
+[vars]
+PATHS = [
+  { pkg = "opendal", repo = "https://github.com/yuchanns/opendal" },
+]
+AVATAR = "https://avatars.githubusercontent.com/u/25029451?v=4"
+DESC = "I'm Hanchin Hsieh, a developer passionate about FOSS, and a big Fan of LiSA(織部 里沙). You can ask me about Go, CloudNative, Nvim, and Asahi Linux."
+
