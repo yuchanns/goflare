@@ -15,7 +15,8 @@ const app = new Hono<{ Bindings: Bindings }>()
 
 app.get('/', (c) => {
   const u = new URL(c.req.url)
-  return c.html(html`<html>
+  return c.html(html`<!DOCTYPE html>
+<html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -70,15 +71,17 @@ app.get('/:pkg/*', (c) => {
   }
   const u = new URL(c.req.url)
   const content_import = `${u.hostname}/${pc.pkg} git ${pc.repo}`
-  const content_source = `${u.hostname}/${pc.pkg} ${pc.repo}/ ${pc.repo}/tree/main{/dir} ${pc.repo}/blob/main{/dir}/{file}#L{line}`
+  const content_source = `${u.hostname}/${pc.pkg} ${pc.repo} ${pc.repo}/tree/main{/dir} ${pc.repo}/blob/main{/dir}/{file}#L{line}`
   const pkg_url = `https://pkg.go.dev/${u.hostname}/${u.pathname.slice(1)}`
   const content_refresh = `0; url=${pkg_url}`
-  return c.html(html`<html>
+  return c.html(html`<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<meta name="go-import" content="${content_import}">
-<meta name="go-source" content="${content_source}">
-<meta http-equiv="refresh" content="${content_refresh}">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="go-import" content="${content_import}">
+  <meta name="go-source" content="${content_source}">
+  <title>${pc.pkg}<title>
 </head>
 <body>
 <a href="${pkg_url}">Redirecting to documentation...</a>
