@@ -81,7 +81,7 @@ app.get('/:pkg/*', (c) => {
   <meta name="viewport" content="width=device-width" />
   <meta name="go-import" content="${content_import}">
   <meta name="go-source" content="${content_source}">
-  <title>${pc.pkg}<title>
+  <title>${pc.pkg}</title>
 </head>
 <body>
 <a href="${pkg_url}">Redirecting to documentation...</a>
