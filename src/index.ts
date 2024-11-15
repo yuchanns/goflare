@@ -137,7 +137,7 @@ a:visited {
 }
 </style>
 </head>
-<header><h1> ${u.hostname}</h1></header>
+<header><h1> ${pc.pkg}</h1></header>
 <p>
 <img style="float: right; width: 9em; margin-left: 1em; border-radius: 15px;" src="${c.env.AVATAR}" />
 ${c.env.DESC}
