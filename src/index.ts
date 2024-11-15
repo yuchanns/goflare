@@ -79,8 +79,7 @@ ${c.env.DESC}
 <div>
 ${c.env.PATHS.map(({ pkg: path }) => {
     const pkg = `${u.hostname}/${path}`
-    const site = `https://pkg.go.dev/${pkg}`
-    return html`<p><a href="${site}">${pkg}</a></p>`
+    return html`<p><a href="${`https://` + pkg}">${pkg}</a></p>`
   })}
 </div>
 </html>`)
