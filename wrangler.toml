@@ -3,8 +3,8 @@ compatibility_date = "2024-09-02"
 
 [vars]
 PATHS = [
-  { pkg = "opendal", repo = "https://github.com/yuchanns/opendal" },
-  { pkg = "all", repo = "https://github.com/yuchanns/all" },
+  { pkg = "opendal", repo = "https://github.com/yuchanns/opendal", readme = "https://raw.githubusercontent.com/yuchanns/opendal/main/README.md" },
+  { pkg = "all", repo = "https://github.com/yuchanns/all", readme = "https://raw.githubusercontent.com/yuchanns/all/main/README.md" },
 ]
 AVATAR = "https://avatars.githubusercontent.com/u/25029451?v=4"
 DESC = "I'm Hanchin Hsieh, a developer passionate about FOSS, and a big Fan of LiSA(織部 里沙). You can ask me about Go, CloudNative, Nvim, and Asahi Linux."
