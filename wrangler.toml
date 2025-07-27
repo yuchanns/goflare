@@ -3,9 +3,10 @@ compatibility_date = "2024-09-02"
 
 [vars]
 PATHS = [
+  { pkg = "lua", repo = "https://github.com/yuchanns/lua", readme = "https://raw.githubusercontent.com/yuchanns/lua/main/README.md" },
+  { pkg = "ltask", repo = "https://github.com/yuchanns/ltaks-go", readme = "https://raw.githubusercontent.com/yuchanns/ltask-go/main/README.md" },
   { pkg = "opendal", repo = "https://github.com/yuchanns/opendal", readme = "https://raw.githubusercontent.com/yuchanns/opendal/main/README.md" },
   { pkg = "all", repo = "https://github.com/yuchanns/all", readme = "https://raw.githubusercontent.com/yuchanns/all/main/README.md" },
-  { pkg = "lua", repo = "https://github.com/yuchanns/lua", readme = "https://raw.githubusercontent.com/yuchanns/lua/main/README.md" },
 ]
 AVATAR = "https://avatars.githubusercontent.com/u/25029451?v=4"
 DESC = "I'm Hanchin Hsieh, a developer passionate about FOSS, and a big Fan of LiSA(織部 里沙). You can ask me about Go, CloudNative, Nvim, and Asahi Linux."
