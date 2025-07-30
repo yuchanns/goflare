@@ -5,6 +5,7 @@ compatibility_date = "2024-09-02"
 PATHS = [
   { pkg = "lua", repo = "https://github.com/yuchanns/lua", readme = "https://raw.githubusercontent.com/yuchanns/lua/main/README.md" },
   { pkg = "ltask", repo = "https://github.com/yuchanns/ltaks-go", readme = "https://raw.githubusercontent.com/yuchanns/ltask-go/main/README.md" },
+  { pkg = "xxchan", repo = "https://github.com/yuchanns/xxchan", readme = "https://raw.githubusercontent.com/yuchanns/xxchan/main/README.md" },
   { pkg = "opendal", repo = "https://github.com/yuchanns/opendal", readme = "https://raw.githubusercontent.com/yuchanns/opendal/main/README.md" },
   { pkg = "all", repo = "https://github.com/yuchanns/all", readme = "https://raw.githubusercontent.com/yuchanns/all/main/README.md" },
 ]
