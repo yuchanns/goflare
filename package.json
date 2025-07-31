@@ -5,8 +5,10 @@
     "deploy": "wrangler deploy --minify src/index.ts"
   },
   "dependencies": {
+    "highlight.js": "^11.11.1",
     "hono": "^4.8.10",
-    "marked": "^16.1.1"
+    "marked": "^16.1.1",
+    "marked-highlight": "^2.2.2"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250731.0",
