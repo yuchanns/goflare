@@ -4,7 +4,7 @@ compatibility_date = "2024-09-02"
 [vars]
 PATHS = [
   { pkg = "lua", repo = "https://github.com/yuchanns/lua", readme = "https://raw.githubusercontent.com/yuchanns/lua/main/README.md" },
-  { pkg = "ltask", repo = "https://github.com/yuchanns/ltaks-go", readme = "https://raw.githubusercontent.com/yuchanns/ltask-go/main/README.md" },
+  { pkg = "ltask", repo = "https://github.com/yuchanns/ltask-go", readme = "https://raw.githubusercontent.com/yuchanns/ltask-go/main/README.md" },
   { pkg = "timefall", repo = "https://github.com/yuchanns/timefall", readme = "https://raw.githubusercontent.com/yuchanns/timefall/main/README.md" },
   { pkg = "xxchan", repo = "https://github.com/yuchanns/xxchan", readme = "https://raw.githubusercontent.com/yuchanns/xxchan/main/README.md" },
   { pkg = "xxcond", repo = "https://github.com/yuchanns/xxcond", readme = "https://raw.githubusercontent.com/yuchanns/xxcond/main/README.md" },
